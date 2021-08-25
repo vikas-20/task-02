@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+body{
+  background-image: url("./images/2562648.jpg");
+}
+
+
+.Navbar{
+  background-color: black ;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  box-shadow: 10px 10px 10px 2px skyblue;
+}
+
+.Navbar h1{
+  margin: 0;
+  width: 50%;
+  float: left;
+  padding: 8px 40px;
+  color: white;
+}
+.Navbar h1:hover{
+  background-color:#ffc107;
+  text-decoration: underline;
+  color: #000000;
+  border-radius:40px;
+}
+
+.Navbar button{
+  float: right;
+  padding: 8px 30px;
+  margin: 12px 70px;
+  cursor: pointer;
+  border: 2px solid skyblue;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 40px;
+  font-family: 'Baloo Bhai',cursive;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+.Navbar button:hover {
+  background-color:#ffc107;
+  text-decoration: underline;
+  color: #000000;
+  
+  border-radius:40px;
+}
+
+.card{
+  width: 22%;
+  height: 250px;
+  margin: 40px 70px;
+  text-align: center;
+  background-color: black ;
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid #81ecec;
+  color:white;
+  float: left;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 10px 10px 10px 2px  #515457;
+}
+
+.card img{
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.spiner{
+  margin: auto;
+  width: auto;
+  padding: 10px;
+  padding-top: 120px;
+  padding-left: 500px;
+}
